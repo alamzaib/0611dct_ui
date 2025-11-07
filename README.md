@@ -4,6 +4,9 @@ From dev environemt to production
 o Production: we can host on EC2
 o Alternative serverless API: AWS Lambda can use with Bref (to run
 PHP on Lambda) + API Gateway
+we are have developed following endpoint with laravel
+- http://192.168.1.143:8000/api/products
+
 # 2. Database
 o RDS (MySQL or PostgreSQL) for production, for a small projects, we
 can go with a single AZ instance.
