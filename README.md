@@ -22,6 +22,7 @@ o Backend generates a pre-signed S3 PUT URL: client requests
 /api/uploads/presign → backend calls S3 SDK to create presigned
 URL → client uploads file directly to S3 → server stores returned S3
 path in product_img.
-# 7. Costs: RDS and EC2 cost money. For testing, we can use free-tier small EC2
+# 7. Costs: 
+RDS and EC2 cost money. For testing, we can use free-tier small EC2
 and S3.
 
